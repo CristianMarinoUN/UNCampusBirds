@@ -1,15 +1,10 @@
-html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
-    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-  }
-  h1 {
-    font-size: 60px;
-    text-align: center;
-  }
-  
-  p,
-  li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
+@font-face {
+  font-family: 'institutional';
+  src: url(/docs/fonts/Ancizar\ Serif-Bold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+h1,
+p {
+  font-family: 'institutional';
+}
