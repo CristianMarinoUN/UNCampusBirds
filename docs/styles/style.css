@@ -1,10 +1,16 @@
+
 @font-face {
   font-family: 'institutional';
-  src: url(/docs/fonts/Ancizar\ Serif-Bold.otf);
+  src: url(/docs/fonts/Ancizar\ Serif-Bold.otf) format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 h1,
+img,
 p {
   font-family: 'institutional';
+  text-align: center;
+}
+body {
+  background-color: #187a28;
 }
